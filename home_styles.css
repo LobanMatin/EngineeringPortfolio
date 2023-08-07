@@ -1,6 +1,4 @@
 .home_upper {
-    background-color: rgb(57, 53, 90);
-    
     padding: 5% 20%;
     padding-bottom: 8%;
 }
@@ -27,14 +25,8 @@
     color: rgb(163, 154, 252);
 }
 
-/* format homepage text section*/
-
-.home_lower {
-    font-family: Trebuchet MS;
-    background-color: rgb(27, 23, 58);
-    margin-bottom: 0;
-    padding: 0;
-    padding: 0% 15%;
+.socials {
+    margin-bottom:4%;
 }
 
 /* format home nagivation bar*/
@@ -48,7 +40,7 @@
 .home_pl {
     text-decoration: underline;
     display: inline-block;
-    margin: 3% 10%;
+    margin: 1.5% 10%;
     color: rgb(216, 213, 242);
 }
 
@@ -59,4 +51,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20%;
+}
+
+.about_me_text {
+    font-family:Monospace;
+    font-size: 2em;
+    line-height: 2em
+}
+
+.section_heading {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
