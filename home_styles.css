@@ -58,3 +58,9 @@
     font-size: 2em;
     line-height: 2em
 }
+
+.section_heading {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
